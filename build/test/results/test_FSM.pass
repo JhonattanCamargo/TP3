@@ -1,0 +1,41 @@
+---
+:source:
+  :path: test
+  :file: test_FSM.c
+:successes:
+- :test: test_desbloquearPantalla
+  :line: 22
+  :message: ''
+- :test: test_entrarMenuUltimoMensaje
+  :line: 30
+  :message: ''
+- :test: test_salirMenuUltimoMensaje
+  :line: 40
+  :message: ''
+- :test: test_entrarMenuSOS
+  :line: 50
+  :message: ''
+- :test: test_salirMenuSOS
+  :line: 61
+  :message: ''
+- :test: test_entrarMenuConfiguracion
+  :line: 71
+  :message: ''
+- :test: test_salirMenuConfiguracion
+  :line: 82
+  :message: ''
+- :test: test_entrarMenuGrupos
+  :line: 94
+  :message: ''
+- :test: test_salirMenuGrupos
+  :line: 103
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 9
+  :passed: 9
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.0009368390019517392
