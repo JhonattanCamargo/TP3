@@ -101,11 +101,13 @@ void test_entrarMenuUltimoMensaje(void) {
 
 void test_salirMenuUltimoMensaje(void) {
 
+ test_entrarMenuUltimoMensaje();
+
  UnityAssertEqualNumber((UNITY_INT)((MENU_ULTIMO_MENSAJE)), (UNITY_INT)((obtenerEstadoInterfaz())), (
 
 ((void *)0)
 
-), (UNITY_UINT)(41), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(42), UNITY_DISPLAY_STYLE_INT);
 
  modificarPosSelector(4 + 5);
 
@@ -115,19 +117,19 @@ void test_salirMenuUltimoMensaje(void) {
 
 ((void *)0)
 
-), (UNITY_UINT)(44), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(45), UNITY_DISPLAY_STYLE_INT);
 
  UnityAssertEqualNumber((UNITY_INT)((MENU_ULTIMO_MENSAJE)), (UNITY_INT)((obtenerEstadoPasadoInterfaz())), (
 
 ((void *)0)
 
-), (UNITY_UINT)(45), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(46), UNITY_DISPLAY_STYLE_INT);
 
  UnityAssertEqualNumber((UNITY_INT)((4 + 2)), (UNITY_INT)((obtenerPosSelector())), (
 
 ((void *)0)
 
-), (UNITY_UINT)(46), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(47), UNITY_DISPLAY_STYLE_INT);
 
 }
 
@@ -149,19 +151,19 @@ void test_entrarMenuSOS(void) {
 
 ((void *)0)
 
-), (UNITY_UINT)(55), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(56), UNITY_DISPLAY_STYLE_INT);
 
  UnityAssertEqualNumber((UNITY_INT)((MENU_PRINCIPAL)), (UNITY_INT)((obtenerEstadoPasadoInterfaz())), (
 
 ((void *)0)
 
-), (UNITY_UINT)(56), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(57), UNITY_DISPLAY_STYLE_INT);
 
  UnityAssertEqualNumber((UNITY_INT)((4 + 5)), (UNITY_INT)((obtenerPosSelector())), (
 
 ((void *)0)
 
-), (UNITY_UINT)(57), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(58), UNITY_DISPLAY_STYLE_INT);
 
 }
 
@@ -171,11 +173,13 @@ void test_entrarMenuSOS(void) {
 
 void test_salirMenuSOS(void) {
 
+ test_entrarMenuSOS();
+
  UnityAssertEqualNumber((UNITY_INT)((MENU_SOS)), (UNITY_INT)((obtenerEstadoInterfaz())), (
 
 ((void *)0)
 
-), (UNITY_UINT)(62), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(64), UNITY_DISPLAY_STYLE_INT);
 
  modificarPosSelector(4 + 5);
 
@@ -185,19 +189,19 @@ void test_salirMenuSOS(void) {
 
 ((void *)0)
 
-), (UNITY_UINT)(65), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(67), UNITY_DISPLAY_STYLE_INT);
 
  UnityAssertEqualNumber((UNITY_INT)((MENU_SOS)), (UNITY_INT)((obtenerEstadoPasadoInterfaz())), (
 
 ((void *)0)
 
-), (UNITY_UINT)(66), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(68), UNITY_DISPLAY_STYLE_INT);
 
  UnityAssertEqualNumber((UNITY_INT)((4 + 2)), (UNITY_INT)((obtenerPosSelector())), (
 
 ((void *)0)
 
-), (UNITY_UINT)(67), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(69), UNITY_DISPLAY_STYLE_INT);
 
 }
 
@@ -219,19 +223,19 @@ void test_entrarMenuConfiguracion(void) {
 
 ((void *)0)
 
-), (UNITY_UINT)(76), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(78), UNITY_DISPLAY_STYLE_INT);
 
  UnityAssertEqualNumber((UNITY_INT)((MENU_PRINCIPAL)), (UNITY_INT)((obtenerEstadoPasadoInterfaz())), (
 
 ((void *)0)
 
-), (UNITY_UINT)(77), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(79), UNITY_DISPLAY_STYLE_INT);
 
  UnityAssertEqualNumber((UNITY_INT)((4 + 5)), (UNITY_INT)((obtenerPosSelector())), (
 
 ((void *)0)
 
-), (UNITY_UINT)(78), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(80), UNITY_DISPLAY_STYLE_INT);
 
 }
 
@@ -241,11 +245,13 @@ void test_entrarMenuConfiguracion(void) {
 
 void test_salirMenuConfiguracion(void) {
 
+ test_entrarMenuConfiguracion();
+
  UnityAssertEqualNumber((UNITY_INT)((MENU_CONFIGURACION)), (UNITY_INT)((obtenerEstadoInterfaz())), (
 
 ((void *)0)
 
-), (UNITY_UINT)(83), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(86), UNITY_DISPLAY_STYLE_INT);
 
  modificarPosSelector(4 + 5);
 
@@ -255,19 +261,19 @@ void test_salirMenuConfiguracion(void) {
 
 ((void *)0)
 
-), (UNITY_UINT)(86), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(89), UNITY_DISPLAY_STYLE_INT);
 
  UnityAssertEqualNumber((UNITY_INT)((MENU_CONFIGURACION)), (UNITY_INT)((obtenerEstadoPasadoInterfaz())), (
 
 ((void *)0)
 
-), (UNITY_UINT)(87), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(90), UNITY_DISPLAY_STYLE_INT);
 
  UnityAssertEqualNumber((UNITY_INT)((4 + 2)), (UNITY_INT)((obtenerPosSelector())), (
 
 ((void *)0)
 
-), (UNITY_UINT)(88), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(91), UNITY_DISPLAY_STYLE_INT);
 
 }
 
@@ -293,23 +299,25 @@ void test_entrarMenuGrupos(void) {
 
 ((void *)0)
 
-), (UNITY_UINT)(99), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(102), UNITY_DISPLAY_STYLE_INT);
 
  UnityAssertEqualNumber((UNITY_INT)((MENU_PRINCIPAL)), (UNITY_INT)((obtenerEstadoPasadoInterfaz())), (
 
 ((void *)0)
 
-), (UNITY_UINT)(100), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(103), UNITY_DISPLAY_STYLE_INT);
 
  UnityAssertEqualNumber((UNITY_INT)((4)), (UNITY_INT)((obtenerPosSelector())), (
 
 ((void *)0)
 
-), (UNITY_UINT)(101), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(104), UNITY_DISPLAY_STYLE_INT);
 
 }
 
 void test_salirMenuGrupos(void) {
+
+ test_entrarMenuGrupos();
 
  modificarPosSelector(4 + 7);
 
@@ -319,18 +327,18 @@ void test_salirMenuGrupos(void) {
 
 ((void *)0)
 
-), (UNITY_UINT)(106), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(110), UNITY_DISPLAY_STYLE_INT);
 
  UnityAssertEqualNumber((UNITY_INT)((MENU_GRUPOS)), (UNITY_INT)((obtenerEstadoPasadoInterfaz())), (
 
 ((void *)0)
 
-), (UNITY_UINT)(107), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(111), UNITY_DISPLAY_STYLE_INT);
 
  UnityAssertEqualNumber((UNITY_INT)((4 + 2)), (UNITY_INT)((obtenerPosSelector())), (
 
 ((void *)0)
 
-), (UNITY_UINT)(108), UNITY_DISPLAY_STYLE_INT);
+), (UNITY_UINT)(112), UNITY_DISPLAY_STYLE_INT);
 
 }

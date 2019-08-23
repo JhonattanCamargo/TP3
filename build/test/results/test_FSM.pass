@@ -13,22 +13,22 @@
   :line: 40
   :message: ''
 - :test: test_entrarMenuSOS
-  :line: 50
+  :line: 51
   :message: ''
 - :test: test_salirMenuSOS
-  :line: 61
+  :line: 62
   :message: ''
 - :test: test_entrarMenuConfiguracion
-  :line: 71
+  :line: 73
   :message: ''
 - :test: test_salirMenuConfiguracion
-  :line: 82
+  :line: 84
   :message: ''
 - :test: test_entrarMenuGrupos
-  :line: 94
+  :line: 97
   :message: ''
 - :test: test_salirMenuGrupos
-  :line: 103
+  :line: 106
   :message: ''
 :failures: []
 :ignores: []
@@ -38,4 +38,4 @@
   :failed: 0
   :ignored: 0
 :stdout: []
-:time: 0.0009368390019517392
+:time: 0.0010264090000191572

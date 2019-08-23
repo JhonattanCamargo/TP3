@@ -72,11 +72,11 @@
   :dependencies: ".d"
 :unity:
   :vendor_path: "/home/jhonattan/Drive/CESE/3. Testing de sistemas embebidos/TPS/Archivos
-    TP 3/TP3/vendor/ceedling/vendor"
+    TP 3/TP3/TP3/vendor/ceedling/vendor"
   :defines: []
 :cmock:
   :vendor_path: "/home/jhonattan/Drive/CESE/3. Testing de sistemas embebidos/TPS/Archivos
-    TP 3/TP3/vendor/ceedling/vendor"
+    TP 3/TP3/TP3/vendor/ceedling/vendor"
   :defines: []
   :includes: []
   :mock_prefix: mock_
@@ -96,7 +96,7 @@
   :unity_helper: false
 :cexception:
   :vendor_path: "/home/jhonattan/Drive/CESE/3. Testing de sistemas embebidos/TPS/Archivos
-    TP 3/TP3/vendor/ceedling/vendor"
+    TP 3/TP3/TP3/vendor/ceedling/vendor"
   :defines: []
 :test_runner:
   :includes: []

@@ -81,12 +81,12 @@ int main(void)
   RUN_TEST(test_desbloquearPantalla, 22);
   RUN_TEST(test_entrarMenuUltimoMensaje, 30);
   RUN_TEST(test_salirMenuUltimoMensaje, 40);
-  RUN_TEST(test_entrarMenuSOS, 50);
-  RUN_TEST(test_salirMenuSOS, 61);
-  RUN_TEST(test_entrarMenuConfiguracion, 71);
-  RUN_TEST(test_salirMenuConfiguracion, 82);
-  RUN_TEST(test_entrarMenuGrupos, 94);
-  RUN_TEST(test_salirMenuGrupos, 103);
+  RUN_TEST(test_entrarMenuSOS, 51);
+  RUN_TEST(test_salirMenuSOS, 62);
+  RUN_TEST(test_entrarMenuConfiguracion, 73);
+  RUN_TEST(test_salirMenuConfiguracion, 84);
+  RUN_TEST(test_entrarMenuGrupos, 97);
+  RUN_TEST(test_salirMenuGrupos, 106);
 
   return suite_teardown(UnityEnd());
 }

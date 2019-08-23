@@ -38,6 +38,7 @@ void test_entrarMenuUltimoMensaje(void) {
 
 // Test para evaluar comportamiento de MENU_ULTIMO_MENSAJE a MENU_PRINCIPAL
 void test_salirMenuUltimoMensaje(void) {
+	test_entrarMenuUltimoMensaje();
 	TEST_ASSERT_EQUAL(MENU_ULTIMO_MENSAJE, obtenerEstadoInterfaz());
 	modificarPosSelector(OP_6);          // Esta funcion permite simular los otros dos botones de subir y bajar
 	oprimirBotonCentral();
@@ -59,6 +60,7 @@ void test_entrarMenuSOS(void) {
 
 // Test para evaluar comportamiento de MENU_SOS a MENU_PRINCIPAL
 void test_salirMenuSOS(void) {
+	test_entrarMenuSOS();
 	TEST_ASSERT_EQUAL(MENU_SOS, obtenerEstadoInterfaz());
 	modificarPosSelector(OP_6);          // Esta funcion permite simular los otros dos botones de subir y bajar
 	oprimirBotonCentral();
@@ -80,6 +82,7 @@ void test_entrarMenuConfiguracion(void) {
 
 // Test para evaluar comportamiento de MENU_CONFIGURACION a MENU_PRINCIPAL
 void test_salirMenuConfiguracion(void) {
+	test_entrarMenuConfiguracion();
 	TEST_ASSERT_EQUAL(MENU_CONFIGURACION, obtenerEstadoInterfaz());
 	modificarPosSelector(OP_6);          // Esta funcion permite simular los otros dos botones de subir y bajar
 	oprimirBotonCentral();
@@ -100,7 +103,10 @@ void test_entrarMenuGrupos(void) {
 	TEST_ASSERT_EQUAL(MENU_PRINCIPAL, obtenerEstadoPasadoInterfaz());
 	TEST_ASSERT_EQUAL(OP_1, obtenerPosSelector());
 }
+
+// Test para evaluar comportamiento de MENU_GRUPOS a MENU_PRINCIPAL
 void test_salirMenuGrupos(void) {
+	test_entrarMenuGrupos();
 	modificarPosSelector(OP_8);
 	oprimirBotonCentral();
 	TEST_ASSERT_EQUAL(MENU_PRINCIPAL, obtenerEstadoInterfaz());
